@@ -62,6 +62,12 @@ body {
   padding: 2rem;
 }
 
-.card-in {
+.card-in-cat {
+  visibility: hidden;
+}
+.card-in-dog {
+  visibility: hidden;
+}
+.card-in-cow {
   visibility: hidden;
 }
