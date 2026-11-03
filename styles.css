@@ -1,4 +1,6 @@
 :root {
+  --font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 *,
@@ -57,7 +59,25 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
+.card{
+    padding: 2rem;
+    border-radius: 8px;
+}
 
+.img{
+    /* fix resize the image*/
+    size: 500px 500px;
+    
+}
+
+.btnP{
+    border: 0;
+    background-color: #2872c7a7;
+}
+.btnS{
+ border-color: #fff;
+}
+/*
 .card {
   padding: 2rem;
 }
@@ -71,3 +91,4 @@ body {
 .card-in-cow {
   visibility: hidden;
 }
+

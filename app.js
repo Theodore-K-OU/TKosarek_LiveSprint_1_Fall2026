@@ -14,32 +14,25 @@
   const dogE = document.getElementById("dog");
   const cowE = document.getElementById("cow");
 
-  render();
-
   buttonPC.addEventListener("click", (event) => {
     catE.classList.remove("hidden");
-    render();
   });
   buttonSC.addEventListener("click", (event) => {
     catE.classList.add("hidden");
-    render();
   });
 
   buttonPD.addEventListener("click", (event) => {
     dogE.classList.remove("hidden");
-    render();
   });
   buttonSD.addEventListener("click", (event) => {
     dogE.classList.add("hidden");
-    render();
   });
 
   buttonPCC.addEventListener("click", (event) => {
     cowE.classList.remove("hidden");
-    render();
   });
   buttonSCC.addEventListener("click", (event) => {
     cowE.classList.add("hidden");
-    render();
   });
-});
+  const fragment = document.createDocumentFragment();
+})();
