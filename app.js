@@ -1,14 +1,14 @@
 (function () {
-  "use strict()";
+  "use strict";
 
-  const buttonPC = document.getElementById("btnSC");
-  const buttonSC = document.getElementById("btnPC");
+  const buttonPC = document.getElementById("btnPC");
+  const buttonSC = document.getElementById("btnSC");
 
-  const buttonPD = document.getElementById("btnSD");
-  const buttonSD = document.getElementById("btnPD");
+  const buttonPD = document.getElementById("btnPD");
+  const buttonSD = document.getElementById("btnSD");
 
-  const buttonPCC = document.getElementById("btnSCC");
-  const buttonSCC = document.getElementById("btnPCC");
+  const buttonPCC = document.getElementById("btnPCC");
+  const buttonSCC = document.getElementById("btnSCC");
 
   const catE = document.getElementById("cat");
   const dogE = document.getElementById("dog");
@@ -34,5 +34,4 @@
   buttonSCC.addEventListener("click", (event) => {
     cowE.classList.add("hidden");
   });
-  const fragment = document.createDocumentFragment();
 })();
