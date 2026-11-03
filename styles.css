@@ -59,39 +59,34 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
-.card{
-    padding: 2rem;
-    border-radius: 8px;
+.card {
+  padding: 2rem;
+  border-radius: 8px;
 }
 
-.img{
-
-    height: 250px;
-    width: 250px;
-    
+.img {
+  height: 250px;
+  width: 250px;
 }
 
-.btn-secondary{
-    
-    background-color: #2872c7a7;
-    flex:auto
+.btn-secondary {
+  background-color: #2872c7a7;
+  flex: auto;
 }
-.btn-primary{
- border-color: #fff;
- 
+.btn-primary {
+  border-color: #fff;
 }
-/*
+
+.card-in-cat.hidden {
+  visibility: hidden;
+}
+.card-in-dog.hidden {
+  visibility: hidden;
+}
+.card-in-cow.hidden {
+  visibility: hidden;
+}
+
 .card {
   padding: 2rem;
 }
-
-.card-in-cat {
-  visibility: hidden;
-}
-.card-in-dog {
-  visibility: hidden;
-}
-.card-in-cow {
-  visibility: hidden;
-}
-
