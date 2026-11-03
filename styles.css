@@ -1,0 +1,67 @@
+:root {
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-header h1 {
+  font-size: 1.25;
+  font-weight: 750;
+}
+
+.hero-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  grid-template-columns: 380px 1fr;
+  gap: 2rem;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.hero-title {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 1.15;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.card-in {
+  visibility: hidden;
+}
