@@ -47,8 +47,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  font-size: 3rem;
+  justify-content: center;
+  font-size: 1.25rem;
   line-height: 1.15rem;
   font-weight: 500;
   margin-bottom: 1.25rem;
@@ -56,6 +56,7 @@ body {
 
 .product-card {
   display: grid;
+  flex: auto;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
@@ -65,16 +66,28 @@ body {
 }
 
 .img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  font-weight: 400;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .btn-secondary {
   background-color: #2872c7a7;
-  flex: auto;
+  align-items: center;
+  border: #fff;
 }
 .btn-primary {
   border-color: #fff;
+  align-items: center;
 }
 
 .card-in-cat.hidden {
